@@ -1,0 +1,77 @@
+*{
+    background-color: rgb(165, 133, 244);
+    font-family: Arial;
+}
+
+#Container{
+    background-color: rgba(46, 41, 41, 0.91);
+    border: 2px solid rgb(0, 0, 0);
+    height: 270px;
+    width: 345px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#ResultDisplay{
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    color: rgb(1, 195, 1);
+    text-align: right;
+    font-size: 28px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.ButtonsNum{
+    margin: 5px auto;
+    font-size: 40px;
+    margin-top: 3px;
+    color: white;
+    background-color: rgb(255, 136, 0);
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+#Clear{
+    margin: auto;
+    font-size: 40px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+#Enter{
+    margin: auto;
+    font-size: 40px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.ButtonsSym{
+    margin: auto 30px;
+    font-size: 40px;
+    margin-top: 4px;
+    gap: 10px;
+    color: white;
+    background-color: rgb(255, 136, 0);
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
